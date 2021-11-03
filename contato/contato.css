@@ -1,22 +1,43 @@
 body {
     background-color: #161A1C;
-    height: 100%;
-    width: 100vh;
     background-size: cover;
     overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
-div.upper-gradient {
-    position: absolute;
-    width: 1583px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
+
+.all {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    border: 1px solid white;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.container {
+    height: 100%;
+    width: 94vw;
+}
+
+.upper-gradient {
+    width: 100vw;
+    border: 1px solid white;
     background: linear-gradient(180deg, rgb(13 13 13 / 93%) 0%, rgb(30 30 28 / 76%) 57.29%, rgba(58, 58, 49, 0) 100%);
 }
 
+.upper-middle {
+    display: flex;
+}
+
 #icone-logo {
-    position: absolute;
     width: 93px;
     height: 34.78px;
     left: 18px;
@@ -24,7 +45,6 @@ div.upper-gradient {
 }
 
 #button-inicio {
-    position: absolute;
     width: 60px;
     height: 30px;
     left: 519px;
@@ -43,7 +63,6 @@ div.upper-gradient {
 }
 
 #button-filmes {
-    position: absolute;
     width: 70px;
     height: 30px;
     left: 679px;
@@ -62,7 +81,6 @@ div.upper-gradient {
 }
 
 #button-favoritos {
-    position: absolute;
     width: 106px;
     height: 30px;
     left: 849px;
@@ -82,7 +100,6 @@ div.upper-gradient {
 }
 
 #button-search-icon {
-    position: absolute;
     left: 92.57%;
     right: 5.69%;
     top: 2.83%;
@@ -90,7 +107,6 @@ div.upper-gradient {
 }
 
 #person-circle-icon {
-    position: absolute;
     left: 97.01%;
     right: 1.25%;
     top: 2.64%;
