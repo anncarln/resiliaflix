@@ -1,0 +1,17 @@
+.carrossel {
+    width: 640px;
+    height: 360px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.carrossel .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.carrossel .fotos img {
+    width: 19.9%;
+}
